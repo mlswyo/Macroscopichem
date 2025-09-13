@@ -1,0 +1,15 @@
+<p>Chemical relationships work through shared features<sup><a href="#" onclick="showDef('features')">1</a></sup>. 
+Materials with similar features behave in similar ways. Water dissolves salt because both have 
+polar<sup><a href="#" onclick="showDef('polar')">2</a></sup> features.</p>
+
+<script>
+function showDef(term) {
+    const definitions = {
+        'features': 'The observable characteristics that define what a material is and how it behaves',
+        'polar': 'Having regions of different electrical charge, like water molecules'
+    };
+    
+    // Simple popup with definition
+    alert(definitions[term]);
+}
+</script>
